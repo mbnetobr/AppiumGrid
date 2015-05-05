@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <parameter name="DeviceID" value="4300d563be11a00d"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.sec.samsungfuteboltest.glue.GalaxyTab2014">
+        <methods>
+          <include name="destroy"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.sec.samsungfuteboltest.glue.GalaxyTab2014 -->
+      <class name="com.sec.samsungfuteboltest.runner.RunnerTestNG">
+        <methods>
+          <include name="run_cukes"/>
+        </methods>
+      </class> <!-- com.sec.samsungfuteboltest.runner.RunnerTestNG -->
+      <class name="com.sec.samsungfuteboltest.glue.GalaxyNote3">
+        <methods>
+          <include name="setup"/>
+          <include name="zoom"/>
+        </methods>
+      </class> <!-- com.sec.samsungfuteboltest.glue.GalaxyNote3 -->
+      <class name="com.sec.samsungfuteboltest.runner.Runner">
+        <methods>
+          <include name="run_cukes"/>
+        </methods>
+      </class> <!-- com.sec.samsungfuteboltest.runner.Runner -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

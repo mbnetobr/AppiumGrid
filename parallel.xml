@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+   
+<suite name="Suite" parallel="tests" thread-count="5" verbose="1">
+
+	<test name="Test1">
+		<parameter name="DeviceID" value="e1d34efd"/> 
+		<classes>
+		<class name="appium.grid.Device1"/>
+		</classes>
+	</test>
+	
+	<test name="Test2">
+		<parameter name="DeviceID" value="4d00006550af214f"/>
+		<classes>
+		<class name="appium.grid.Device2"/>
+		</classes>
+	</test>
+
+</suite>

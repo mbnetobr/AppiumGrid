@@ -1,0 +1,1 @@
+appium -a 127.0.0.1 -p 4725 --bootstrap-port 4728 -U 4300d563be11a00d --nodeconfig C:\Users\manuel.neto\projetos\SSE2.0\Development\Code\SamsungFutebolTest\grid\json\Device2.json
